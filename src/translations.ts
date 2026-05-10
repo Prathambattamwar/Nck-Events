@@ -1,0 +1,185 @@
+
+export type Language = 'en' | 'hi' | 'te';
+
+export const translations = {
+  en: {
+    appName: "ShibirConnect",
+    welcomeBack: "Welcome back",
+    enterEmail: "Enter your official email to proceed to your dashboard.",
+    emailLabel: "Email Address",
+    studentPortal: "Student Portal",
+    adminPanel: "Admin Panel",
+    secureAccess: "Secure access powered by ShibirConnect Identity Services.",
+    logout: "Logout",
+    upcomingShibirs: "Upcoming Shibirs",
+    exploreShibirs: "Explore and discover upcoming spiritual retreats. Each shibir is a unique opportunity for growth and connection.",
+    activeEvents: "Active Events",
+    details: "Details",
+    noShibirs: "No shibirs scheduled yet",
+    checkBack: "Check back later for new event announcements.",
+    adminControl: "Admin Control",
+    manageShibirs: "Manage shibir listings and oversee event information.",
+    addNewShibir: "Add New Shibir",
+    eventDetails: "Event Details",
+    eventTitle: "Event Title",
+    description: "Description",
+    startDate: "Start Date",
+    endDate: "End Date",
+    location: "Location",
+    eventBanner: "Event Banner",
+    confirmPublish: "Confirm and Publish Shibir",
+    currentListings: "Current Listings",
+    removeListing: "Remove Listing",
+    systemHealth: "System Health",
+    totalModules: "Total Shibir Modules",
+    uptime: "Uptime",
+    status: "Status",
+    guidelines: "Quick Guidelines",
+    newLabel: "New Event",
+    aboutShibir: "About the Shibir",
+    uploadImage: "Upload Promotional Image",
+    cancel: "Cancel Addition",
+    validEmailError: "Please enter a valid email address.",
+    noListings: "No active listings. Add one to get started.",
+    initialShibirs: [
+      {
+        id: '1',
+        title: 'Vasant Vihar Meditation',
+        description: 'A three-day spiritual journey focusing on inner peace and mindfulness techniques. Join us for a transformative experience in the heart of nature.',
+        location: 'Dehradun, Uttarakhand'
+      },
+      {
+        id: '2',
+        title: 'Youth Wisdom Camp',
+        description: 'Interactive sessions designed for young seekers to bridge ancient wisdom with modern challenges. Includes group discussions and outdoor activities.',
+        location: 'Pune, Maharashtra'
+      },
+      {
+        id: '3',
+        title: 'Gita Life Workshop',
+        description: 'An intensive exploration of Bhagavad Gita verses and their practical application in daily life. Perfect for students and professionals.',
+        location: 'Ahmedabad, Gujarat'
+      }
+    ]
+  },
+  hi: {
+    appName: "शिविर कनेक्ट",
+    welcomeBack: "आपका स्वागत है",
+    enterEmail: "अपने डैशबोर्ड पर आगे बढ़ने के लिए अपना आधिकारिक ईमेल दर्ज करें।",
+    emailLabel: "ईमेल पता",
+    studentPortal: "छात्र पोर्टल",
+    adminPanel: "एडमिन पैनल",
+    secureAccess: "शिविर कनेक्ट पहचान सेवाओं द्वारा संचालित सुरक्षित पहुंच।",
+    logout: "लॉगआउट",
+    upcomingShibirs: "आगामी शिविर",
+    exploreShibirs: "आगामी आध्यात्मिक शिविरों की खोज करें। प्रत्येक शिविर विकास और जुड़ाव का एक अनूठा अवसर है।",
+    activeEvents: "सक्रिय कार्यक्रम",
+    details: "विवरण",
+    noShibirs: "अभी तक कोई शिविर निर्धारित नहीं है",
+    checkBack: "नए कार्यक्रम की घोषणाओं के लिए बाद में देखें।",
+    adminControl: "एडमिन नियंत्रण",
+    manageShibirs: "शिविर लिस्टिंग प्रबंधित करें और कार्यक्रम की जानकारी की देखरेख करें।",
+    addNewShibir: "नया शिविर जोड़ें",
+    eventDetails: "कार्यक्रम का विवरण",
+    eventTitle: "कार्यक्रम का शीर्षक",
+    description: "विवरण",
+    startDate: "प्रारंभ तिथि",
+    endDate: "अंतिम तिथि",
+    location: "स्थान",
+    eventBanner: "कार्यक्रम बैनर",
+    confirmPublish: "पुष्टि करें और शिविर प्रकाशित करें",
+    currentListings: "वर्तमान लिस्टिंग",
+    removeListing: "लिस्टिंग हटाएँ",
+    systemHealth: "सिस्टम स्वास्थ्य",
+    totalModules: "कुल शिविर मॉड्यूल",
+    uptime: "अपटाइम",
+    status: "स्थिति",
+    guidelines: "त्वरित दिशा-निर्देश",
+    newLabel: "नया कार्यक्रम",
+    aboutShibir: "शिविर के बारे में",
+    uploadImage: "प्रचार छवि अपलोड करें",
+    cancel: "रद्द करें",
+    validEmailError: "कृपया एक वैध ईमेल पता दर्ज करें।",
+    noListings: "कोई सक्रिय लिस्टिंग नहीं। शुरू करने के लिए एक जोड़ें।",
+    initialShibirs: [
+      {
+        id: '1',
+        title: 'वसंत विहार ध्यान',
+        description: 'आंतरिक शांति और सचेतन तकनीकों पर ध्यान केंद्रित करने वाली तीन दिवसीय आध्यात्मिक यात्रा। प्रकृति के बीच एक परिवर्तनकारी अनुभव के लिए हमारे साथ जुड़ें।',
+        location: 'देहरादून, उत्तराखंड'
+      },
+      {
+        id: '2',
+        title: 'युवा ज्ञान शिविर',
+        description: 'आधुनिक चुनौतियों के साथ प्राचीन ज्ञान को जोड़ने के लिए युवा साधकों के लिए डिज़ाइन किए गए इंटरैक्टिव सत्र। इसमें समूह चर्चा और बाहरी गतिविधियाँ शामिल हैं।',
+        location: 'पुणे, महाराष्ट्र'
+      },
+      {
+        id: '3',
+        title: 'गीता जीवन कार्यशाला',
+        description: 'भगवद गीता के श्लोकों और दैनिक जीवन में उनके व्यावहारिक अनुप्रयोग का गहन अन्वेषण। छात्रों और पेशेवरों के लिए उत्तम।',
+        location: 'अहमदाबाद, गुजरात'
+      }
+    ]
+  },
+  te: {
+    appName: "శిబిర్ కనెక్ట్",
+    welcomeBack: "తిరిగి స్వాగతం",
+    enterEmail: "మీ డాష్‌బోర్డ్‌కి వెళ్లడానికి మీ అధికారిక ఇమెయిల్‌ను నమోదు చేయండి.",
+    emailLabel: "ఇమెయిల్ చిరునామా",
+    studentPortal: "విద్యార్థి పోర్టల్",
+    adminPanel: "అడ్మిన్ ప్యానెల్",
+    secureAccess: "శిబిర్ కనెక్ట్ ఐడెంటిటీ సర్వీసెస్ ద్వారా సురక్షిత యాక్సెస్.",
+    logout: "లాగ్ అవుట్",
+    upcomingShibirs: "రాబోయే శిబిరాలు",
+    exploreShibirs: "రాబోయే ఆధ్యాత్మిక తిరోగమనాలను అన్వేషించండి మరియు కనుగొనండి. ప్రతి శిబిరం వృద్ధి మరియు అనుసంధానం కోసం ఒక ప్రత్యేక అవకాశం.",
+    activeEvents: "క్రియశీల ఈవెంట్‌లు",
+    details: "వివరాలు",
+    noShibirs: "ఇంకా శిబిరాలు ఏవీ లేవు",
+    checkBack: "కొత్త ఈవెంట్ ప్రకటనల కోసం తర్వాత తనిఖీ చేయండి.",
+    adminControl: "అడ్మిన్ నియంత్రణ",
+    manageShibirs: "శిబిరాల జాబితాలను నిర్వహించండి మరియు ఈవెంట్ సమాచారాన్ని పర్యవేక్షించండి.",
+    addNewShibir: "కొత్త శిబిరాన్ని జోడించండి",
+    eventDetails: "ఈవెంట్ వివరాలు",
+    eventTitle: "ఈవెంట్ శీర్షిక",
+    description: "వివరణ",
+    startDate: "ప్రారంభ తేదీ",
+    endDate: "ముగింపు తేదీ",
+    location: "స్థానం",
+    eventBanner: "ఈవెంట్ బ్యానర్",
+    confirmPublish: "నిర్ధారించి శిబిరాన్ని ప్రచురించండి",
+    currentListings: "ప్రస్తుత జాబితాలు",
+    removeListing: "జాబితాను తొలగించు",
+    systemHealth: "సిస్టమ్ ఆరోగ్యం",
+    totalModules: "మొత్తం శిబిరాల మాడ్యూల్స్",
+    uptime: "అప్‌టైమ్",
+    status: "స్థితి",
+    guidelines: "త్వరిత మార్గదర్శకాలు",
+    newLabel: "కొత్త ఈవెంట్",
+    aboutShibir: "శిబిరం గురించి",
+    uploadImage: "ప్రచార చిత్రాన్ని అప్‌లోడ్ చేయండి",
+    cancel: "రద్దు చేయి",
+    validEmailError: "దయచేసి సరైన ఇమెయిల్ చిరునామాను నమోదు చేయండి.",
+    noListings: "క్రియశీల జాబితాలు ఏవీ లేవు. ప్రారంభించడానికి ఒకదాన్ని జోడించండి.",
+    initialShibirs: [
+      {
+        id: '1',
+        title: 'వసంత్ విహార్ ధ్యానం',
+        description: 'అంతర్గత శాంతి మరియు సంపూర్ణత పద్ధతులపై దృష్టి సారించే మూడు రోజుల ఆధ్యాత్మిక ప్రయాణం. ప్రకృతి ఒడిలో పరివర్తనాత్మక అనుభవం కోసం మాతో చేరండి.',
+        location: 'డెహ్రాడూన్, ఉత్తరాఖండ్'
+      },
+      {
+        id: '2',
+        title: 'యువ జ్ఞాన శిబిరం',
+        description: 'పురాతన జ్ఞానాన్ని ఆధునిక సవాళ్లతో అనుసంధానించడానికి యువ అన్వేషకుల కోసం రూపొందించబడిన ఇంటరాక్టివ్ సెషన్‌లు. సమూహ చర్చలు మరియు బహిరంగ కార్యకలాపాలను కలిగి ఉంటుంది.',
+        location: 'పుణె, మహారాష్ట్ర'
+      },
+      {
+        id: '3',
+        title: 'గీతా జీవన వర్క్‌షాప్',
+        description: 'భగవద్గీత శ్లోకాలు మరియు రోజువారీ జీవితంలో వాటి ఆచరణాత్మక అన్వయం యొక్క ఇంటెన్సివ్ అన్వేషణ. విద్యార్థులు మరియు నిపుణుల కోసం సరిగ్గా సరిపోతుంది.',
+        location: 'అహ్మదాబాద్, గుజరాత్'
+      }
+    ]
+  }
+};

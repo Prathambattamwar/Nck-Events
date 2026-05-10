@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">nckEvents</string>
+    <string name="title_activity_main">nckEvents</string>
+    <string name="package_name">com.nckevents.app</string>
+    <string name="custom_url_scheme">com.nckevents.app</string>
+</resources>
